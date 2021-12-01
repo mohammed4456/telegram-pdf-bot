@@ -11,8 +11,7 @@ import pdf_bot.logging as pdf_bot_logging
 from pdf_bot.mq_bot import MQBot
 
 load_dotenv()
-TELE_TOKEN = os.environ.get(2138852252:AAFNTHAQxJ-zmtSQVmzdrAVckXXt-G7FTSE)
-
+TELE_TOKEN = os.environ.get("TELE_TOKEN")
 TIMEOUT = 20
 
 
